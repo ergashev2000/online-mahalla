@@ -50,7 +50,7 @@ const index = () => {
             </div>
           </div>
           <div className="footer__bottom">
-            <div>© «Онлайн Маҳалла». Барча ҳуқуқлар ҳимояланган</div>
+            <h4>© «Онлайн Маҳалла». Барча ҳуқуқлар ҳимояланган</h4>
             <div className="footer__bottom-social">
               <a href="">
                 <img src={TelegramIcon} />

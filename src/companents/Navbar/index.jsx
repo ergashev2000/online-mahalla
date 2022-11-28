@@ -9,7 +9,6 @@ import InstagramIcon from "../../assets/images/icons/instagram_black.svg";
 import Logout from "../../assets/images/icons/log-in-blue.svg";
 
 const index = () => {
-  
   window.addEventListener("scroll", () => {
     console.log("window.scrollY", window.scrollY);
     if (window.scrollY > 0) {
@@ -20,6 +19,10 @@ const index = () => {
         .classList.remove("fixed");
     }
   });
+
+  function BarMenu() {
+    document.querySelector('.bar__nav-items').classList.toggle('show')
+  }
 
   return (
     <>
@@ -77,8 +80,8 @@ const index = () => {
               </a>
               <nav>
                 <ul className="nav__items">
-                  <li className="hamberger__menu">
-                    <span></span>
+                  <li className="bar__menu-toggle"  onClick={() => BarMenu()}>
+                    <span className="hamberger__menu"></span>
                   </li>
                   <li className="nav__item">
                     <a href="" className="nav__item-link">
@@ -113,6 +116,25 @@ const index = () => {
                   </li>
                 </ul>
               </nav>
+            </div>
+            <div className="bar__menu-all ">
+              <ul className="bar__nav-items">
+                <li>
+                  <a href="#">Бош саҳифа</a>
+                </li>
+                <li>
+                  <a href="#">Тизим ҳақида</a>
+                </li>
+                <li>
+                  <a href="#">Онлайн ахборотнома</a>
+                </li>
+                <li>
+                  <a href="#">Савол-жавоб</a>
+                </li>
+                <li>
+                  <a href="#">Боғланиш</a>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
