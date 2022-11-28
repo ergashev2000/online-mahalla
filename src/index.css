@@ -499,7 +499,7 @@ data > svg {
   margin-right: 10px;
 }
 .news__more-video {
-  padding: 20px 40px;
+  padding: 18px 40px;
   background-color: #0161fe;
   border: 1px solid #0161fe;
   border-radius: 30px;
@@ -511,6 +511,7 @@ data > svg {
   margin: 0 auto;
   transition: all 0.3s;
   margin-top: 40px;
+  white-space: nowrap;
 }
 .news__more-video:hover {
   background-color: #fff;

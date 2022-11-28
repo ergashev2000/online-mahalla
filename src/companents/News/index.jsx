@@ -78,6 +78,8 @@ const index = () => {
             {/* Carousel mobile*/}
             <a href="" className="news__more-video">
               Барча видеолавхалар
+              Барча видеолавхалар
+              Барча видеолавхалар
             </a>
           </div>
         </div>
