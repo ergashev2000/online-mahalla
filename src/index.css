@@ -381,6 +381,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 30px;
 }
 
 .galereya__images-left > img,
@@ -441,11 +442,11 @@ body {
   border: 1px solid #0161fe;
   border-radius: 30px;
   color: #fff;
-  display: block;
-  width: fit-content;
-  margin: 20px auto;
+  width: 200px;
   transition: all 0.3s;
-  white-space: nowrap;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
 }
 .galereya__more-download:hover {
   background-color: #fff;
@@ -877,7 +878,6 @@ footer {
   }
   .slick-slider{
     display: block;
-    overflow-x: hidden;
   }
 
   /* FAQ */
