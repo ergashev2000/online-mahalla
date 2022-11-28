@@ -878,6 +878,7 @@ footer {
   }
   .slick-slider{
     display: block;
+    overflow-x: hidden;
   }
 
   /* FAQ */
