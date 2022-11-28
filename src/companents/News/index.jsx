@@ -34,8 +34,8 @@ const index = () => {
                 <iframe
                   width="100%"
                   height="100%"
-                  src="https://www.youtube.com/embed/HFn9Ul_z6CY"
-                  title="Ҳоким ёрдамчиси билан бир кун: Қашқадарё вилояти, Миришкор тумани, Бори маҳалласи"
+                  src="https://www.youtube.com/embed/mB7DdBWB7aw"
+                  title="Маҳаллабай ишлаш тизими: энди ҳар бир маҳалла ихтисослашуви бўйича қўллаб-қувватланади"
                   frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowfullscreen
@@ -55,8 +55,8 @@ const index = () => {
                 <iframe
                   width="100%"
                   height="100%"
-                  src="https://www.youtube.com/embed/HFn9Ul_z6CY"
-                  title="Ҳоким ёрдамчиси билан бир кун: Қашқадарё вилояти, Миришкор тумани, Бори маҳалласи"
+                  src="https://www.youtube.com/embed/rlhKtZWeeOU"
+                  title="Ҳоким ёрдамчиси билан бир кун: Наманган вилояти Наманган тумани Наврўз маҳалласи"
                   frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowfullscreen
