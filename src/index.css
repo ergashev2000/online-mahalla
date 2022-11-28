@@ -445,6 +445,7 @@ body {
   width: fit-content;
   margin: 20px auto;
   transition: all 0.3s;
+  white-space: nowrap;
 }
 .galereya__more-download:hover {
   background-color: #fff;
