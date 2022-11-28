@@ -19,27 +19,40 @@ const index = () => {
             <div className="hero__menu">
               <ul className="hero__menu-items">
                 <li className="hero__menu-item">
-                  <a href="" className="hero__menu-item-link">Қўлланма</a>
+                  <a href="" className="hero__menu-item-link">
+                    Қўлланма
+                  </a>
                 </li>
                 <li className="hero__menu-item">
-                  <a href="" className="hero__menu-item-link">Қўлланма</a>
+                  <a href="" className="hero__menu-item-link">
+                    Ишга жойлаштириш
+                  </a>
                 </li>
                 <li className="hero__menu-item">
-                  <a href="" className="hero__menu-item-link">Қўлланма Қўлланма Қўлланма Қўлланма</a>
+                  <a href="" className="hero__menu-item-link">
+                    Ишга жойлаштириш (ЯММТ)
+                  </a>
                 </li>
                 <li className="hero__menu-item">
-                  <a href="" className="hero__menu-item-link">Қўлланма</a>
+                  <a href="" className="hero__menu-item-link">
+                    Ўқишга йўналтириш (мономарказ)
+                  </a>
                 </li>
                 <li className="hero__menu-item">
-                  <a href="" className="hero__menu-item-link">Қўлланма</a>
+                  <a href="" className="hero__menu-item-link">
+                    Ўқишга йўналтириш (ННТ/НТТ)
+                  </a>
                 </li>
                 <li className="hero__menu-item">
-                  <a href="" className="hero__menu-item-link">Қўлланма</a>
+                  <a href="" className="hero__menu-item-link">
+                    Субсидияга ариза
+                  </a>
                 </li>
                 <li className="hero__menu-item">
-                  <a href="" className="hero__menu-item-link">Қўлланма</a>
+                  <a href="" className="hero__menu-item-link">
+                    Онлайн мурожаатнома
+                  </a>
                 </li>
-                
               </ul>
             </div>
           </div>

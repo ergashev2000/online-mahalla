@@ -2,6 +2,9 @@ import React from "react";
 import FooterLogo from "../../assets/images/footer-logo.svg";
 import Logout from "../../assets/images/icons/log-in-blue.svg";
 
+import TelegramIcon from "../../assets/images/icons/telegram_black.svg";
+import InstagramIcon from "../../assets/images/icons/instagram_black.svg";
+
 const index = () => {
   return (
     <>
@@ -38,8 +41,23 @@ const index = () => {
             </ul>
             <div className="footer__app">
               <h3>Мобил иловалар</h3>
-              <a href="">Online Mahalla <img src={Logout} /></a>
-              <a href="">RS Imzo <img src={Logout} /></a>
+              <a href="">
+                Online Mahalla <img src={Logout} />
+              </a>
+              <a href="">
+                RS Imzo <img src={Logout} />
+              </a>
+            </div>
+          </div>
+          <div className="footer__bottom">
+            <div>© «Онлайн Маҳалла». Барча ҳуқуқлар ҳимояланган</div>
+            <div className="footer__bottom-social">
+              <a href="">
+                <img src={TelegramIcon} />
+              </a>
+              <a href="">
+                <img src={InstagramIcon} />
+              </a>
             </div>
           </div>
         </div>

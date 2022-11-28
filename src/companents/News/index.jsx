@@ -1,4 +1,5 @@
 import React from "react";
+import Carousel from "../UI/Carousel";
 
 const index = () => {
   return (
@@ -72,6 +73,9 @@ const index = () => {
                 </div>
               </a>
             </div>
+            {/* Carousel mobile */}
+            <Carousel />
+            {/* Carousel mobile*/}
             <a href="" className="news__more-video">
               Барча видеолавхалар
             </a>

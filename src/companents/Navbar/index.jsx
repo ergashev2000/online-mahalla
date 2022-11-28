@@ -77,6 +77,9 @@ const index = () => {
               </a>
               <nav>
                 <ul className="nav__items">
+                  <li className="hamberger__menu">
+                    <span></span>
+                  </li>
                   <li className="nav__item">
                     <a href="" className="nav__item-link">
                       Бош саҳифа
@@ -105,7 +108,7 @@ const index = () => {
                   <li className="nav__item">
                     <a href="" className="nav__item-link">
                       <img src={Logout} />
-                      Тизимга кириш
+                      <span>Тизимга кириш</span>
                     </a>
                   </li>
                 </ul>
