@@ -845,7 +845,7 @@ footer {
     padding-top: 40px;
   }
   .hero {
-    height: 140vh;
+    height: 110vh;
   }
   .hero__menu-items {
     grid-template-columns: auto;
