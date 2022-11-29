@@ -1,6 +1,7 @@
 import React from "react";
 
 const index = () => {
+
   return (
     <>
       <section className="hero">
@@ -19,7 +20,7 @@ const index = () => {
             <div className="hero__menu">
               <ul className="hero__menu-items">
                 <li className="hero__menu-item">
-                  <a href="" className="hero__menu-item-link">
+                  <a href="" className="hero__menu-item-link" >
                     Қўлланма
                   </a>
                 </li>

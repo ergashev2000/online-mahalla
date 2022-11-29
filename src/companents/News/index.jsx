@@ -6,7 +6,7 @@ const index = () => {
     <>
       <section>
         <div className="container">
-          <div className="news">
+          <div className="news" id="news">
             <h2 className="news__title">Онлайн ахборотнома</h2>
             <div className="news__cards">
               <a href="" className="news__card">

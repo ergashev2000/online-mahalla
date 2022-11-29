@@ -39,7 +39,7 @@ const index = () => {
 
   return (
     <>
-      <section className="faq-main">
+      <section className="faq-main" id="faq">
         <div className="container">
           <div className="faq">
             <span>F.A.Q</span>

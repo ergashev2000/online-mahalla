@@ -723,7 +723,7 @@ footer {
 .footer__menu > h3 {
   font-size: 20px;
   font-weight: 700;
-  padding: 30px;
+  padding: 30px 0;
 }
 
 .footer__menu > li > a {
@@ -796,6 +796,15 @@ footer {
   display: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+
+
+
 /* Media mobile  */
 
 @media only screen and (max-width: 992px) {
@@ -833,6 +842,13 @@ footer {
     padding-right: 0;
   }
   
+
+
+
+
+
+
+
 
   /* HERO Media Mobile */
   .hero__text-title {
@@ -942,3 +958,5 @@ footer {
     display: flex;
   }
 }
+
+

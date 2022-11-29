@@ -4,7 +4,7 @@ import PhoneIcon from '../../assets/images/icons/phone-icon.svg'
 const index = () => {
   return (
     <>
-      <section className="contact">
+      <section className="contact" id="contact">
         <div className="container">
           <h2 className="contect__title">Мурожаат қилиш</h2>
           <div className="contact__content">
