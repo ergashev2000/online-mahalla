@@ -212,7 +212,7 @@ body {
   
 }
 .show{
-  transform: translateY(10px);
+  transform: translateY(0px);
 }
 
 .bar__menu-toggle{
@@ -876,6 +876,8 @@ html {
   }
   .navigator__cards {
     grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+    place-items: start ;
+
   }
   .navigator__card {
     padding: 35px 30px;

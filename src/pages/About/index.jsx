@@ -30,7 +30,7 @@ const index = () => {
           <div className="container">
             <div className="about__info">
               <img src={InfoBtn} alt="info" />
-              <div className="about__info-text">
+              <p className="about__info-text">
                 Ўзбекистон Республикаси Президентининг “Иқтисодий тараққиёт ва
                 камбағалликни қисқартириш вазирлиги ҳузуридаги Маҳаллабай ишлаш
                 ва тадбиркорликни ривожлантириш агентлиги фаолиятини ташкил этиш
@@ -43,7 +43,7 @@ const index = () => {
                 <button type="button" className="about__info-btn">
                   Батафсил{" "}
                 </button>
-              </div>
+              </p>
             </div>
           </div>
         </section>
@@ -199,7 +199,7 @@ const index = () => {
             </div>
             <div className="about__purpose-video">
               <iframe
-                width="670"
+                width="400"
                 height="380"
                 src="https://www.youtube.com/embed/qlIVjyW1UjA"
                 title="“Online Mahalla” ахборот тизими"
