@@ -199,7 +199,7 @@ body {
   background-color: #fff;
   left: 0;
   padding-top: 100px;
-  transform: translateY(-1200px);
+  transform: translateY(-130%);
   transition: all .5s;
   
 }
@@ -212,7 +212,7 @@ body {
   
 }
 .show{
-  transform: translateY(0px);
+  transform: translateY(10px);
 }
 
 .bar__menu-toggle{
